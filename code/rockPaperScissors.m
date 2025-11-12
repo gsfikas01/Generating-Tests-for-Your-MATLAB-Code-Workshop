@@ -19,6 +19,7 @@ arguments
     p2 (1,1) string {mustBeMember(p2,["rock","paper","scissors"])}
 end
 
+
 rockVsScissors  = p1 == "rock"     && p2 == "scissors";
 scissorsVsPaper = p1 == "scissors" && p2 == "paper";
 paperVsRock     = p1 == "paper"    && p2 == "rock";
